@@ -1,0 +1,151 @@
+body{
+  background-image:url('EventsBackground.jpg');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+h2{
+  color: black !important;
+}
+a{
+  color: black !important;
+}
+.services .service-item {
+  background-color: white;
+  color: black !important;
+}
+li a{
+  color: white !important;
+}
+div.header-social-links a{
+  color: white !important;
+}
+div .service-item p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Montserrat', sans-serif;  
+  color: black;
+}
+div .service-item  h4{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+div .testimonial-item p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+div .content_flightht_travel_dil h6{
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Montserrat', sans-serif; 
+  color: black;
+}
+header .logo .d-flex .align-items-center .me-auto .me-lg-0 i{
+  background-image: url('logo2-removebg-preview (1).png');
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;*/
+}
+div.content_flightht_travel_dil img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div .popup_flight_travlDil h2{
+  text-align: center;
+}
+div .popup_flight_travlDil h4{
+  text-align: right;
+}
+div.imgcont{
+   margin :0px auto;
+   display: inline-block;
+   border-radius: 50%;
+}
+.overlay_flight_traveldil {
+  position: fixed;
+  background-image: url();
+  padding:5%;
+  top: 55%;
+  bottom: 50%;
+  left: 70%;
+  right: 70%;
+  width: 100%;
+  /*background: rgba(8, 106, 253, 0.7);*/
+  transition: opacity ;
+  visibility: hidden;
+  opacity: 0;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: grey;
+  opacity: 1;
+}
+.myclass{
+  text-align: center;
+  background-color: black;
+  border-radius: 5px !important;
+}
+div.myclass a span{
+  color: white !important;
+}
+.overlay_flight_traveldil:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup_flight_travlDil {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+#myVideo {
+  padding: 0;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.close_flight_travelDl{
+  color: #000!important;
+  opacity: 0.5;
+  border-radius: 5px;
+
+}
+.pap{
+  background-color: rgb(0, 0,0,0.2);
+}
+.event{
+  position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -35%);
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+  max-height: 30%;
+  overflow: auto;
+}
+.service-item,.position-relative{
+  border-radius: 15px;
+}
+:root{
+  --color-primary: #e3b419;
+}

@@ -1,0 +1,63 @@
+body{
+    background: url(yuvanth.jpg);
+    background-repeat: no-repeat; 
+	background-position: center;
+	background-size: cover; 
+	position: relative;
+}
+h1{
+    color: rgba(13, 1, 78, 0.986) !important;
+    font-size: 5vw;
+    font-family: 'Trirong';
+}
+h2{
+    text-align: center;
+    color: #000 !important;
+    margin: 0 !important;
+    font-size: 180px;
+}
+.dept{
+    font-size: 30px;
+    color: rgb(85, 4, 4);
+    margin: 0 !important;
+}
+.sym{
+    font-weight: bold;
+    text-align: center !important;
+    font-size: 9vw !important;
+    letter-spacing: normal;
+    color: rgba(13, 1, 78, 0.986) !important;
+}
+
+h6{
+    text-align: center;
+    color: #000!important;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    color: #000!important;
+    margin: 0 !important;
+    
+
+}
+.countdown-timer{
+    margin: 35px 0px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000!important;
+}
+.timer-item{
+    display: inline-block;
+    background: #03d9a7;
+    margin: 5px 3px;
+    padding: 20px;
+    min-width: 140px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.container{
+    overflow: wrap;
+}

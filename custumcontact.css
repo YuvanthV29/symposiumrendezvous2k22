@@ -1,0 +1,13 @@
+body{
+	background: url(CONT.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: cover; 
+	position: relative;
+}
+section.contact{
+	padding-bottom: 100px;
+}
+h2,p,h4,h6{
+	color: black !important;
+}
