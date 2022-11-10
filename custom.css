@@ -108,6 +108,7 @@ div.imgcont{
 .myclass{
   text-align: center;
   background-color: black;
+  width: 40%;
   border-radius: 5px !important;
 }
 div.myclass a span{
@@ -179,4 +180,13 @@ div.myclass a span{
 }
 :root{
   --color-primary: #e3b419;
+}
+
+.rule{
+  width: 40%;
+  float: right;
+  position: relative;
+  bottom: 72px;
+  /* padding-left: 60px !important; */
+  color: black;
 }
